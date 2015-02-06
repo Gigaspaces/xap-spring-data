@@ -1,6 +1,7 @@
 xap-spring-data
 ===============
 Below the desired scope of the project. 
+
 1.       Implement the latest CrudRepository , PagingAndSortingRepository in a similar way GemFire implemented it.
 2.       All Query lookup strategies should be supported including Property expressions , Special parameter handling , Selectively exposing CRUD methods
 3.       Creating repository instances via XML configuration , filters and JavaConfig , Standalone and Manual wiring should be supported.
