@@ -5,13 +5,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.xap.model.Person;
 import org.springframework.data.xap.service.PersonService;
-import org.springframework.data.xap.spaceclient.SpaceClient;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,6 +42,12 @@ public abstract class AbstractRepositoryTest {
     @After
     public void clear() {
         personService.deleteAll();
+    }
+
+    @Test
+    public void testFindByName(){
+        Person person = personService.findByName("Cris");
+        assertEquals(cris, person);
     }
 
     @Test
