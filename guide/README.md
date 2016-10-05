@@ -83,7 +83,7 @@ In a project directory of your choosing, create the following subdirectory struc
     <repositories>
         <repository>
             <id>org.openspaces</id>
-            <url>http://maven-repository.openspaces.org</url>
+            <url>http://maven-repository.openspaces.gigaspaces.org</url>
         </repository>
         <repository>
             <id>spring-releases</id>
@@ -94,7 +94,7 @@ In a project directory of your choosing, create the following subdirectory struc
     <pluginRepositories>
         <pluginRepository>
             <id>org.openspaces</id>
-            <url>http://maven-repository.openspaces.org</url>
+            <url>http://maven-repository.openspaces.gigaspaces.org</url>
         </pluginRepository>
         <pluginRepository>
             <id>spring-releases</id>
