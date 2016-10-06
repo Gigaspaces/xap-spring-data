@@ -15,13 +15,13 @@
     <repositories>
         <repository>
             <id>org.openspaces</id>
-            <url>http://maven-repository.openspaces.gigaspaces.org</url>
+            <url>http://maven-repository.openspaces.org</url>
         </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>org.openspaces</id>
-            <url>http://maven-repository.openspaces.gigaspaces.org</url>
+            <url>http://maven-repository.openspaces.org</url>
         </pluginRepository>
     </pluginRepositories>
 

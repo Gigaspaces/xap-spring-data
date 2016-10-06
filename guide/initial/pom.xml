@@ -44,7 +44,7 @@
     <repositories>
         <repository>
             <id>org.openspaces</id>
-            <url>http://maven-repository.openspaces.gigaspaces.org</url>
+            <url>http://maven-repository.openspaces.org</url>
         </repository>
         <repository>
             <id>spring-releases</id>
@@ -55,7 +55,7 @@
     <pluginRepositories>
         <pluginRepository>
             <id>org.openspaces</id>
-            <url>http://maven-repository.openspaces.gigaspaces.org</url>
+            <url>http://maven-repository.openspaces.org</url>
         </pluginRepository>
         <pluginRepository>
             <id>spring-releases</id>
